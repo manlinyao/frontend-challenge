@@ -1,0 +1,38 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: black;
+  font: Helvetica;
+  font-family: sans-serif;
+  font-size: 12px;
+  width: 100%;
+}
+
+.lines {
+  display: inline;
+  vertical-align: top;
+  width: 30%
+}
+
+.destination {
+  display: inline;
+  vertical-align: top;
+  width: 30%
+}
+
+.frequency {
+  display: inline;
+  vertical-align: top;
+  width: 30%
+}
+
+div {
+  display: inline;
+  float: left;
+  margin: 10px 1% 0 1%;
+  height: 150px;
+  width: 100%;
+}
