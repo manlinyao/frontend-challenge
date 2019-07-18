@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 16px;
+}
+
 body {
   background-color: #fff;
   color: black;
@@ -14,25 +18,25 @@ body {
 .lines {
   display: inline;
   vertical-align: top;
-  width: 30%
+  width: 30%;
 }
 
 .destination {
   display: inline;
   vertical-align: top;
-  width: 30%
+  width: 30%;
 }
 
 .frequency {
   display: inline;
   vertical-align: top;
-  width: 30%
+  width: 30%;
 }
 
 div {
   display: inline;
   float: left;
   margin: 10px 1% 0 1%;
-  height: 150px;
+  height: 100px;
   width: 100%;
 }
