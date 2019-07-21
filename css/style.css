@@ -3,7 +3,7 @@
 }
 
 h1 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 body {
@@ -16,27 +16,21 @@ body {
 }
 
 .lines {
-  display: inline;
-  vertical-align: top;
-  width: 30%;
+  display: inline-block;
+  width: 10%;
 }
 
 .destination {
-  display: inline;
-  vertical-align: top;
-  width: 30%;
+  display: inline-block;
+  width: 30%
 }
 
 .frequency {
-  display: inline;
-  vertical-align: top;
+  display:inline-block;
   width: 30%;
 }
 
-div {
-  display: inline;
-  float: left;
-  margin: 10px 1% 0 1%;
-  height: 100px;
-  width: 100%;
+.Route {
+  display: block;
+  margin: 10px;
 }
