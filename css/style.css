@@ -2,11 +2,64 @@
   box-sizing: border-box;
 }
 
+nav {
+  position: absolute;
+  width: 375px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+
 body {
   background-color: #fff;
   font: SF Pro display;
   font-family: sans-serif;
+  width: 375px;
+  top: 60%;
+  height:667px;
+}
+
+.status-bar {
+  position: absolute;
   width: 100%;
+  height: 20px;
+  top: 0%;
+  background: url(../images/status-bar.png);
+  background-size: contain;
+}
+
+.arrow {
+  position: absolute;
+  left: 5%;
+  right: 90%;
+  padding-top: 35px;
+  bottom: 10%;
+  height: 3px;
+  background: url(../images/arrow.png);
+  background-size: cover;
+}
+
+/* Map */
+.map {
+  background-position: relative;
+  width: 100%;
+  height: 600px;
+  left: 1px;
+  top: -13px;
+  background: url(../images/map.jpg);
+  background-size: contain;
+}
+
+.station {
+  text-align: center;
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 h2 {
@@ -31,10 +84,32 @@ h4 {
 }
 
 .route {
-  width: 100%;
-  margin:20px;
+  width: 92%;
+  margin: 20px;
   font-style: normal;
   line-height: 20px;
   text-align: left;
   color: #000;
+}
+
+.busybusroutedata {
+  position: absolute;
+  top: 425px;
+  background-color: #FFF;
+  left:2.5px;
+  width: 370px;
+}
+
+.thick {
+  width: 335px;
+  height: 0;
+  float: left;
+  border: 0.5px solid rgba(0,0,0,0.5);
+}
+
+.thin {
+  width: 335px;
+  height: 0;
+  float: left;
+  border: 0.5px solid rgba(0,0,0,0.25);
 }
