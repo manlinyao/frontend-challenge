@@ -3,7 +3,7 @@
 }
 
 nav {
-  position: absolute;
+  display: inline-block;
   width: 375px;
   height: 64px;
   left: 0px;
@@ -17,10 +17,11 @@ body {
   width: 375px;
   top: 60%;
   height:667px;
+  margin: 0 auto;
 }
 
 .status-bar {
-  position: inline-block;
+  display: inline-block;
   width: 100%;
   height: 20px;
   top: 0%;
@@ -29,25 +30,26 @@ body {
 }
 
 .arrow {
-  position: absolute;
+  display: inline-block;
   left: 5%;
   right: 90%;
-  padding-top: 35px;
+  padding-top: 30px;
   bottom: 10%;
   height: 5px;
+  width: 18px;
   background: url(../images/arrow.png);
   background-size: cover;
 }
 
 /* Map */
 .map {
-  background-position: relative;
+  display: inline-block;
   width: 100%;
-  height: 600px;
+  height: 750px;
   left: 1px;
   top: -13px;
   background: url(../images/map.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 
 .station {
@@ -56,8 +58,10 @@ body {
 }
 
 h1 {
+  display: inline-block;
   font-size: 18px;
   font-weight: bold;
+  padding-left: 60px;
 }
 
 h2 {
@@ -66,10 +70,12 @@ h2 {
 
 h3 {
   font-size: 14px;
+  border-bottom: 1.25px solid black;
 }
 
 h4 {
   font-size: 12px;
+  border-bottom: 1px solid black;
 }
 
 .bold {
@@ -85,16 +91,17 @@ h4 {
   width: 92%;
   margin: 20px;
   font-style: normal;
+  padding-top: 10px;
   line-height: 20px;
   text-align: left;
   color: #000;
 }
 
 .busybusroutedata {
-  position: absolute;
-  top: 425px;
+  position: relative;
+  top: -350px;
   background-color: #FFF;
-  left:2.5px;
+  left: 2.5px;
   width: 370px;
 }
 
